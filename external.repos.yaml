@@ -1,17 +1,21 @@
 repositories:
   external/common_interfaces:
     type: git
-    url: git@github.com:pac48/common_interfaces.git
+    url: https://github.com/pac48/common_interfaces.git
     version: add-network-msg
   external/moveit2:
     type: git
-    url: git@github.com:pac48/moveit2.git
+    url: https://github.com/pac48/moveit2.git
     version: add-network-collision-object-submit
   external/moveit_msgs:
     type: git
-    url: git@github.com:pac48/moveit_msgs.git
+    url: https://github.com/pac48/moveit_msgs.git
     version: ros2
   external/geometric_shapes:
     type: git
-    url: git@github.com:pac48/geometric_shapes.git
+    url: https://github.com/pac48/geometric_shapes.git
     version: add-neural-objects
+  external/sawyer_robot_ros2:
+    type: git
+    url: https://github.com/AssistiveRoboticsUNH/sawyer_robot_ros2.git
+    version: main

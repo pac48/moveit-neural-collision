@@ -3,8 +3,8 @@
 ```
 mkdir -p ros_ws/src
 cd ros_ws/src
-git clone https://github.com/pac48/moveit_neural_collision.git  
-vcs import < external.repos.yaml
+git clone https://github.com/pac48/moveit-neural-collision.git  
+vcs import < moveit-neural-collision/external.repos.yaml
 cd ..
 colcon build --allow-overriding moveit_configs_utils common_interfaces diagnostic_msgs geometry_msgs moveit_common moveit_msgs moveit_resources_panda_moveit_config nav_msgs sensor_msgs sensor_msgs_py shape_msgs std_msgs std_srvs trajectory_msgs visualization_msgs --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release
 
